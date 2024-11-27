@@ -9,5 +9,11 @@
  * @returns {number} The sum of the first and last elements.
  */
 export function firstAddLast(nums) {
-  // TODO
-}
+  if (nums.length === 0) { 
+ return 0; // Handle empty array case 
+ } 
+ return nums[0] + nums[nums.length - 1]; // Correctly add first and last elements 
+ }
+  
+  // 
+

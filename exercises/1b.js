@@ -10,5 +10,9 @@
  * @returns {Array} The array containing only the middle elements
  */
 export function getMiddle(arr) {
+  if (arr.length <= 2)  {
+    return [] ; //cant have a value as should retun and empty tray for 2 or less elements 
+  }
+return arr.slice (1, - 1) ; // dont forget the commas 
   // TODO
 }
