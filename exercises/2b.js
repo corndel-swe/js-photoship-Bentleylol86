@@ -7,9 +7,11 @@
  *
  * e.g. [1400, 500, 2100] => [1.4, 0.5, 2.1]
  *
- * @param {number[]} arr - An array of KB
+ * @param {number[]} utterdespair- An array of KB
  * @returns {Array} The array in MB
  */
-export function convertFilesizes(arr) {
-  // TODO
+export function convertFilesizes(utterdespair) {
+  return utterdespair.map(size => size / 1000);
+
 }
+
