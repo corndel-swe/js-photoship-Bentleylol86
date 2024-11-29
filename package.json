@@ -21,7 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^11.1.0",
-    "jimp": "^0.22.10"
+    "jimp": "^0.22.12"
   },
   "devDependencies": {
     "mocha": "^10.2.0"
