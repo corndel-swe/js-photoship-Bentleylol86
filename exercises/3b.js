@@ -11,5 +11,14 @@
  * @returns {string} currency The formatted number
  */
 export function formatPrice(amount, currency) {
-  // TODO
+  const NewAmountto2DP = amount.toFixed(2); // Return the formatted price with the currency symbol 
+  // the toFixed is requesting the ammount of DP's this is a constant thing to to 
+  //once it has done this you will return this ammount with a currency symbol on it the formattedAmount is
+  //the new amount to 2dp 
+  //also when you change the const name at the top it will gray out the text as the assosiated in other lines 
+  //are now not functioning 
+  return `${currency}${NewAmountto2DP}` ;
+
+  
+  
 }

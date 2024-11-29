@@ -6,9 +6,10 @@
  *
  * e.g. ("Abdi") => "Hello, my name is ABDI!"
  *
- * @param {string} name - The name
+ * @param {string} Lauire - The name
  * @returns {string} The greeting string with uppercase name interpolated
  */
-export function nameTag(name) {
-  // TODO
+export function nameTag(Lauire) {
+  return "Hello, my name is " + Lauire.toUpperCase() + "!"; // dont forget the () call the touppercase method
+  
 }
